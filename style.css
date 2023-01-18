@@ -1,0 +1,88 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+header {
+    background-color: palevioletred;
+    padding: 0.5em 0 0.5em 0;
+    /* width: 96%; */
+    margin: auto;
+}
+
+header h1 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: overline;
+}
+
+#picbox {
+    margin: auto;
+    /* background-color: brown; */
+    max-width: 60vw;
+    height: 60vh;
+    text-align: center
+}
+
+#dickpic {
+    height: 100%;
+    object-fit: cover;
+}
+
+#quoteback {
+    width: 657px;
+    height: 1.8em;
+    /* background-color: #FFC62B; */
+    background-color: #FFB901;
+    text-align: center;
+    margin: auto;
+}
+
+#quote {
+    padding-top: 5px;
+    /* color: palevioletred; */
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#listbox {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 28%;
+    text-align: left;
+}
+
+#biolist {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+footer {
+    padding: 0.5em 0 0.5em 0;
+    background-color: black;
+    color: palevioletred;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: cadetblue;
+}
